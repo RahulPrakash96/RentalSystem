@@ -83,10 +83,11 @@ public class RentalSystem {
 		parkingSlots.add(vehicle.getSlotNo());
 		vehicle.setStatus(STATUS.NOT_AVAILABLE);	
 	}
-	
-	
-	
-	
+
+	public int calculatePrice(int vehicleNo, int fromTime, int toTime) {
+		// TODO Auto-generated method stub
+		return availableVehicles.get(vehicleNo).getType().getRate()*(toTime - fromTime);
+	}
 	
 	
 
