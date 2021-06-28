@@ -17,6 +17,9 @@ public class RentalSystem {
 	}
 	private RentalSystem()
 	{
+		availableVehicles = Repository.addVehicles();
+		members = Repository.addUsers();
+		parkingSlots = Repository.addSlots();
 	}
 	
 	HashMap<Integer,Vehicle> availableVehicles;
@@ -27,13 +30,6 @@ public class RentalSystem {
 	
 	PriorityQueue<RentedVehicle> rentedVehicles;
 	
-	
-	RentalSystem()
-	{
-		availableVehicles = Repository.addVehicles();
-		members = Repository.addUsers();
-		parkingSlots = Repository.addSlots();
-	}
 	
 	public void showAvailableVehicles()
 	{
