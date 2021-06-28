@@ -15,6 +15,9 @@ public class RentalSystem {
 		
 		return rentalSystem;
 	}
+	private RentalSystem()
+	{
+	}
 	
 	HashMap<Integer,Vehicle> availableVehicles;
 	
