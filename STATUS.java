@@ -1,0 +1,6 @@
+
+public enum STATUS {
+	
+	AVAILABLE,NOT_AVAILABLE
+
+}
