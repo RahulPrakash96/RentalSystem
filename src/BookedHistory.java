@@ -1,5 +1,5 @@
 
-public class bookedHistory {
+public class BookedHistory {
 
 	private int fromTime;
 	private int toTime;

@@ -3,13 +3,13 @@ public class Vehicle {
 	
 	private int vehicleNo;
 
-	private VEHICLE_TYPE type;
+	private VehicleType type;
 	
 	private STATUS status;
 	
 	private int slotNo;
 	
-	public Vehicle(int no, VEHICLE_TYPE type, STATUS status)
+	public Vehicle(int no, VehicleType type, STATUS status)
 	{
 		this.type = type;
 		this.vehicleNo = no;
@@ -36,7 +36,7 @@ public class Vehicle {
 		this.slotNo = slotNo;
 	}
 
-	public VEHICLE_TYPE getType() {
+	public VehicleType getType() {
 		return type;
 	}
 
