@@ -11,6 +11,4 @@ public class bookedHistory {
 		return toTime;
 	}
 	
-	
-	
 }
